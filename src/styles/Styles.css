@@ -1,0 +1,28 @@
+/* Navbar */
+.arrow-rotate {
+    transform: rotate(180deg);
+    transition: transform ease .5s;
+}
+
+.components:hover .components-text, .components:hover .arrow{
+    color: rgb(196, 228, 255);
+    transition: ease .5s;
+}
+
+.component-lists {
+    height: 0px;
+    overflow-y: auto;
+    transition: height .5s ease;
+}
+
+.component-lists.active {
+    height: 300px;
+}
+
+::-webkit-scrollbar {
+    background-color: #070717;
+    width: 3px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #b6ecff;
+}
