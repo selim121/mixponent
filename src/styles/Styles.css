@@ -4,7 +4,8 @@
     transition: transform ease .5s;
 }
 
-.components:hover .components-text, .components:hover .arrow{
+.components:hover .components-text,
+.components:hover .arrow {
     color: rgb(196, 228, 255);
     transition: ease .5s;
 }
@@ -23,6 +24,15 @@
     background-color: #070717;
     width: 3px;
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: #b6ecff;
+}
+
+/* Home  */
+.background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
