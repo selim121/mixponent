@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
         <div className="rounded-xl container">
-            <div className="w-56 h-screen fixed top-0 bg-[#1d262f] pt-28">
+            <div className="w-56 h-screen fixed top-0 bg-[#141a20] pt-28">
                 <div className="w-full h-[4px] bg-[#0aa370] mt-5"></div>
                 <div className='px-5 mt-8 text-white text-2xl transition-all duration-300'>
                     <div onClick={arrowRotate} className="flex items-center components cursor-pointer">
@@ -21,7 +21,7 @@ const Navbar = () => {
                     <div className={`component-lists ${arrowClass ? 'active' : ''}`}>
                         <div className="mt-5 ms-3 flex flex-col gap-1">
                             <NavLink
-                                to="/cards"
+                                to="/card-collection"
                                 className={({ isActive }) => (isActive ? "text-[#0aa370] ps-5 py-2 rounded-lg text-xl transition-all duration-500 bg-[#070717]" : "py-2 rounded-lg text-xl hover:text-[#0aa370] hover:ps-5 transition-all duration-500 hover:bg-[#070717]")}
                             >
                                 Card

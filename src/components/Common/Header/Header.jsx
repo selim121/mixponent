@@ -1,8 +1,8 @@
 import React from 'react';
-import { FaSquareGithub } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa6";
-import { PiLinkSimpleFill } from "react-icons/pi";
-import { FaSquareFacebook } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FaLink } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa6";
 
 import '../../../styles/Styles.css';
 import { Link } from 'react-router-dom';
@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div className="container fixed top-[30px] z-50">
-            <div className="h-[60px] me-4 bg-[#1d262ff4] flex items-center justify-between px-5 rounded-3xl">
+            <div className="h-[60px] me-4 bg-[#141a20f9] flex items-center justify-between px-5 rounded-3xl">
                 <div className="inline-flex items-center gap-20">
                     <Link to={'/'}>
                         <div className="flex items-center justify-center">
@@ -28,10 +28,10 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="inline-flex items-center justify-center gap-3">
-                    <Link className='scale-100 transition-transform duration-500 hover:scale-125' ><FaSquareGithub color='#0aa370' size={"30px"} /></Link>
-                    <Link className='scale-100 transition-transform duration-500 hover:scale-125' ><FaLinkedin color='#0aa370' size={"30px"} /></Link>
-                    <Link className='scale-100 transition-transform duration-500 hover:scale-125' ><FaSquareFacebook color='#0aa370' size={"30px"} /></Link>
-                    <Link className='scale-100 transition-transform duration-500 hover:scale-125' ><PiLinkSimpleFill color='#0aa370' size={"36px"} /></Link>
+                    <Link className='scale-100 transition-transform duration-500 hover:scale-125' ><FaGithub color='0aa370' size={"30px"} /></Link>
+                    <Link className='scale-100 transition-transform duration-500 hover:scale-125' ><FaLinkedinIn color='0aa370' size={"30px"} /></Link>
+                    <Link className='scale-100 transition-transform duration-500 hover:scale-125' ><FaFacebookF color='0aa370' size={"30px"} /></Link>
+                    <Link className='scale-100 transition-transform duration-500 hover:scale-125' ><FaLink color='0aa370' size={"36px"} /></Link>
                 </div>
             </div>
         </div>

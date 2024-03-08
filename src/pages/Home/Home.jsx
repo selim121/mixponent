@@ -6,7 +6,7 @@ import '../../styles/Styles.css';
 
 const Home = () => {
     return (
-        <div className="max-w-[1700px] ps-60 pt-40 pe-[16px] h-screen">
+        <div className="max-w-[1700px] ps-60 py-40 pe-[16px]">
             <div className="flex flex-col items-center justify-center">
                 <h1 className="text-[80px] bg-gradient-to-r from-[#0aa370] to-[#bcf0df] text-transparent bg-clip-text">Element Assortment</h1>
                 <p className="max-w-[600px] text-white text-center mt-2">

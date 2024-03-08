@@ -4,7 +4,7 @@ import {
 } from "react-router-dom";
 import Main from "../Layout/Main";
 import Home from "../pages/Home/Home";
-import CardWrap from '../components/ComponentWrap/Card/CardWrap';
+import CardCollection from '../components/IgnoreComponents/Cards/CardCollection/CardCollection';
 
 const router = createBrowserRouter([
     {
@@ -16,8 +16,8 @@ const router = createBrowserRouter([
                 element: <Home></Home>
             },
             {
-                path: '/cards',
-                element: <CardWrap />
+                path: '/card-collection',
+                element: <CardCollection />
             },
             {
                 path: '/home',
