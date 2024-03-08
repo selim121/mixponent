@@ -6,7 +6,7 @@
 
 .components:hover .components-text,
 .components:hover .arrow {
-    color: rgb(196, 228, 255);
+    color: #0aa370;
     transition: ease .5s;
 }
 
@@ -26,7 +26,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #b6ecff;
+    background-color: #0aa370;
 }
 
 /* Home  */
