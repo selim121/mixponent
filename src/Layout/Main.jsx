@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet, ScrollRestoration } from "react-router-dom";
-import Navbar from '../components/Common/Navbar/Navbar';
-import Header from '../components/Common/Header/Header';
+import Header from '../components/IgnoreComponents/Common/Header/Header';
+import Navbar from '../components/IgnoreComponents/Common/Navbar/Navbar';
 
 const Main = () => {
     return (
