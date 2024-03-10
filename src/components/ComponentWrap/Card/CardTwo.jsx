@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
-import cardTwo from '../../../assets/Card/card-two.jpeg';
 import { Link } from 'react-router-dom';
 import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa6';
 
 const CardTwo = () => {
 
     const [ mouseEnter, setMouseEnter ] = useState(false);
+    const cardImage = "https://img.freepik.com/free-photo/beautiful-woman-sweater-sweater_144627-46546.jpg";
 
     return (
         <div>
             <div onMouseEnter={() => setMouseEnter(true)} onMouseLeave={() => setMouseEnter(false)} className="overflow-hidden">
                 <div className="relative h-[200px] w-[250px] md:h-[300px] md:w-[300px] lg:h-[350px] lg:w-[350px]">
-                    <img className={`h-full w-full object-cover object-top transition-transform duration-500 ${mouseEnter ? "scale-110" : "scale-100"}`} src={cardTwo} alt="Card one image" />
+                    <img className={`h-full w-full object-cover object-top transition-transform duration-500 ${mouseEnter ? "scale-110" : "scale-100"}`} src={cardImage} alt="Card one image" />
                     <div className={`absolute bottom-0 left-0 bg-[#ffffff] px-3 py-1 inline-flex flex-col items-start justify-center transition-all duration-700 ${mouseEnter ? "rounded-tr-[0px]" : "rounded-tr-[60px]"}`}>
                         <h6 className="text-[#070717] text-md tracking-wide">Sanzida Zerin</h6>
                         <p className="text-[#070717] opacity-60 text-sm tracking-wide">Designer</p>

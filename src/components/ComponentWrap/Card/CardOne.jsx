@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import cardImage from '../../../assets/Card/card-one.jpeg';
 
 const CardOne = () => {
 
     const [mouseEnter, setMouseEnter] = useState(false);
+    const cardImage = "https://img.freepik.com/free-photo/beautiful-girl-stands-near-walll-with-leaves_8353-5377.jpg";
 
     return (
         <div onMouseEnter={() => setMouseEnter(true)} onMouseLeave={() => setMouseEnter(false)} className="overflow-hidden">
